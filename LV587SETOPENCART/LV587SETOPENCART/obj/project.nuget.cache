@@ -1,0 +1,26 @@
+{
+  "version": 2,
+  "dgSpecHash": "ZSdMfMT776EqOULwulppIGnIT2MI0Knq6TxSLaHPB/ejbIPjQkg/GcgVe8wi/MS9ri8uORcd349KI5pqs2c9GQ==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\Dsyhi\\OneDrive\\Рабочий стол\\SOFTSERVEDEMO4\\Demo4SoftServeClouds\\LV587SETOPENCART\\LV587SETOPENCART\\LV587SETOPENCART.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Dsyhi\\.nuget\\packages\\allure.commons\\3.5.0.4\\allure.commons.3.5.0.4.nupkg.sha512",
+    "C:\\Users\\Dsyhi\\.nuget\\packages\\microsoft.codecoverage\\16.10.0\\microsoft.codecoverage.16.10.0.nupkg.sha512",
+    "C:\\Users\\Dsyhi\\.nuget\\packages\\microsoft.net.test.sdk\\16.10.0\\microsoft.net.test.sdk.16.10.0.nupkg.sha512",
+    "C:\\Users\\Dsyhi\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
+    "C:\\Users\\Dsyhi\\.nuget\\packages\\microsoft.testplatform.objectmodel\\16.10.0\\microsoft.testplatform.objectmodel.16.10.0.nupkg.sha512",
+    "C:\\Users\\Dsyhi\\.nuget\\packages\\microsoft.testplatform.testhost\\16.10.0\\microsoft.testplatform.testhost.16.10.0.nupkg.sha512",
+    "C:\\Users\\Dsyhi\\.nuget\\packages\\mimetypesmap\\1.0.8\\mimetypesmap.1.0.8.nupkg.sha512",
+    "C:\\Users\\Dsyhi\\.nuget\\packages\\netstandard.library\\2.0.0\\netstandard.library.2.0.0.nupkg.sha512",
+    "C:\\Users\\Dsyhi\\.nuget\\packages\\newtonsoft.json\\12.0.3\\newtonsoft.json.12.0.3.nupkg.sha512",
+    "C:\\Users\\Dsyhi\\.nuget\\packages\\nuget.frameworks\\5.0.0\\nuget.frameworks.5.0.0.nupkg.sha512",
+    "C:\\Users\\Dsyhi\\.nuget\\packages\\nunit\\3.13.2\\nunit.3.13.2.nupkg.sha512",
+    "C:\\Users\\Dsyhi\\.nuget\\packages\\nunit.allure\\1.0.13\\nunit.allure.1.0.13.nupkg.sha512",
+    "C:\\Users\\Dsyhi\\.nuget\\packages\\nunit3testadapter\\4.0.0\\nunit3testadapter.4.0.0.nupkg.sha512",
+    "C:\\Users\\Dsyhi\\.nuget\\packages\\restsharp\\106.11.7\\restsharp.106.11.7.nupkg.sha512",
+    "C:\\Users\\Dsyhi\\.nuget\\packages\\selenium.webdriver\\3.141.0\\selenium.webdriver.3.141.0.nupkg.sha512",
+    "C:\\Users\\Dsyhi\\.nuget\\packages\\selenium.webdriver.chromedriver\\91.0.4472.1900\\selenium.webdriver.chromedriver.91.0.4472.1900.nupkg.sha512",
+    "C:\\Users\\Dsyhi\\.nuget\\packages\\system.reflection.metadata\\1.6.0\\system.reflection.metadata.1.6.0.nupkg.sha512"
+  ],
+  "logs": []
+}

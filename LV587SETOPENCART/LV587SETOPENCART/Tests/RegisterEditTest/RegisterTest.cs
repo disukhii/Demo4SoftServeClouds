@@ -12,9 +12,9 @@ namespace LV587SETOPENCART.Tests
     
 {
     [TestFixture]
-    [AllureNUnit]
-    [AllureSuite("[Register] Create new customer Test")]
-    [AllureDisplayIgnored]
+    //[AllureNUnit]
+    //[AllureSuite("[Register] Create new customer Test")]
+    //[AllureDisplayIgnored]
     class RegisterTest
     {
         IWebDriver driver;
@@ -36,14 +36,14 @@ namespace LV587SETOPENCART.Tests
         [SetUp]
         public void SetUp()
         {
-            driver.Navigate().GoToUrl(@"http://localhost/");
+            driver.Navigate().GoToUrl(@"http://3.234.143.196/");
         }
 
         [Test]
-        [AllureTag("OpenCart: Register Test")]
-        [AllureSeverity(SeverityLevel.critical)]
-        [AllureOwner("Sukhii Dmitro")]
-        [Description("The test check that you can create new customer account (Registration)")]
+        //[AllureTag("OpenCart: Register Test")]
+        //[AllureSeverity(SeverityLevel.critical)]
+        //[AllureOwner("Sukhii Dmitro")]
+        //[Description("The test check that you can create new customer account (Registration)")]
         public void RegisterPageTest()
         {
             // Click on My Account > Register
@@ -81,8 +81,8 @@ namespace LV587SETOPENCART.Tests
             }
             catch (Exception)
             {
-                AfterTestScreen.SaveAsFile(@"C:\Users\Dsyhi\source\repos\LV587SetOpencart\LV587SETOPENCART\LV587SETOPENCART\bin\Debug\net5.0\AllureScreenShots\MyAccount.Png", ScreenshotImageFormat.Png);
-                AllureLifecycle.Instance.AddAttachment("ReviewTestTearDown", "application/png", @"C:\Users\Dsyhi\source\repos\LV587SetOpencart\LV587SETOPENCART\LV587SETOPENCART\bin\Debug\net5.0\AllureScreenShots\MyAccount.Png");
+            //    AfterTestScreen.SaveAsFile(@"C:\Users\Dsyhi\source\repos\LV587SetOpencart\LV587SETOPENCART\LV587SETOPENCART\bin\Debug\net5.0\AllureScreenShots\MyAccount.Png", ScreenshotImageFormat.Png);
+            //    AllureLifecycle.Instance.AddAttachment("ReviewTestTearDown", "application/png", @"C:\Users\Dsyhi\source\repos\LV587SetOpencart\LV587SETOPENCART\LV587SETOPENCART\bin\Debug\net5.0\AllureScreenShots\MyAccount.Png");
             }
 
             
@@ -105,8 +105,8 @@ namespace LV587SETOPENCART.Tests
             }
             catch (Exception)
             {
-                AfterTestScreen.SaveAsFile(@"C:\Users\Dsyhi\source\repos\LV587SetOpencart\LV587SETOPENCART\LV587SETOPENCART\bin\Debug\net5.0\AllureScreenShots\MyAccount.Png", ScreenshotImageFormat.Png);
-                AllureLifecycle.Instance.AddAttachment("ReviewTestTearDown", "application/png", @"C:\Users\Dsyhi\source\repos\LV587SetOpencart\LV587SETOPENCART\LV587SETOPENCART\bin\Debug\net5.0\AllureScreenShots\MyAccount.Png");
+            //    AfterTestScreen.SaveAsFile(@"C:\Users\Dsyhi\source\repos\LV587SetOpencart\LV587SETOPENCART\LV587SETOPENCART\bin\Debug\net5.0\AllureScreenShots\MyAccount.Png", ScreenshotImageFormat.Png);
+            //    AllureLifecycle.Instance.AddAttachment("ReviewTestTearDown", "application/png", @"C:\Users\Dsyhi\source\repos\LV587SetOpencart\LV587SETOPENCART\LV587SETOPENCART\bin\Debug\net5.0\AllureScreenShots\MyAccount.Png");
             }
 
             Thread.Sleep(1000);//only for presentation

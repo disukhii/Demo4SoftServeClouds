@@ -13,9 +13,9 @@ namespace LV587SETOPENCART.Tests
 {
     
     [TestFixture]
-    [AllureNUnit]
-    [AllureSuite("[Edit] You can edit information in your profile ")]
-    [AllureDisplayIgnored]
+    //[AllureNUnit]
+    //[AllureSuite("[Edit] You can edit information in your profile ")]
+    //[AllureDisplayIgnored]
     class EditUserTest
     {
         IWebDriver driver;
@@ -37,13 +37,13 @@ namespace LV587SETOPENCART.Tests
         [SetUp]
         public void SetUp()
         {
-            driver.Navigate().GoToUrl(@"http://localhost/");
+            driver.Navigate().GoToUrl(@"http://3.234.143.196/");
         }
         [Test]
-        [AllureTag("OpenCart: Edit Information about User Test")]
-        [AllureSeverity(SeverityLevel.critical)]
-        [AllureOwner("Sukhii Dmitro")]
-        [Description("The test verify that you can edit data your account")]
+        //[AllureTag("OpenCart: Edit Information about User Test")]
+        //[AllureSeverity(SeverityLevel.critical)]
+        //[AllureOwner("Sukhii Dmitro")]
+        //[Description("The test verify that you can edit data your account")]
         public void EditUserInformationTest()
         {
 
@@ -71,9 +71,13 @@ namespace LV587SETOPENCART.Tests
             }
             catch (Exception)
             {
-                AfterTestScreen.SaveAsFile(@"C:\Users\Dsyhi\source\repos\LV587SetOpencart\LV587SETOPENCART\LV587SETOPENCART\bin\Debug\net5.0\AllureScreenShots\ScreenshotImageFormat.Png", ScreenshotImageFormat.Png);
-                AllureLifecycle.Instance.AddAttachment("ReviewTestTearDown", "application/png", @"C:\Users\Dsyhi\source\repos\LV587SetOpencart\LV587SETOPENCART\LV587SETOPENCART\bin\Debug\net5.0\AllureScreenShots\ScreenshotImageFormat.Png");
+
             }
+            //catch (Exception)
+            //{
+            //    AfterTestScreen.SaveAsFile(@"C:\Users\Dsyhi\source\repos\LV587SetOpencart\LV587SETOPENCART\LV587SETOPENCART\bin\Debug\net5.0\AllureScreenShots\ScreenshotImageFormat.Png", ScreenshotImageFormat.Png);
+            //    AllureLifecycle.Instance.AddAttachment("ReviewTestTearDown", "application/png", @"C:\Users\Dsyhi\source\repos\LV587SetOpencart\LV587SETOPENCART\LV587SETOPENCART\bin\Debug\net5.0\AllureScreenShots\ScreenshotImageFormat.Png");
+            //}
             Thread.Sleep(1000);//only for presentation
 
             RightSideBar rightSideBar = new RightSideBar(driver);
@@ -100,9 +104,13 @@ namespace LV587SETOPENCART.Tests
             }
             catch (Exception)
             {
-                AfterTestScreen.SaveAsFile(@"C:\Users\Dsyhi\source\repos\LV587SetOpencart\LV587SETOPENCART\LV587SETOPENCART\bin\Debug\net5.0\AllureScreenShots\ScreenshotImageFormat.Png", ScreenshotImageFormat.Png);
-                AllureLifecycle.Instance.AddAttachment("ReviewTestTearDown", "application/png", @"C:\Users\Dsyhi\source\repos\LV587SetOpencart\LV587SETOPENCART\LV587SETOPENCART\bin\Debug\net5.0\AllureScreenShots\ScreenshotImageFormat.Png");
+
             }
+            //catch (Exception)
+            //{
+            //    AfterTestScreen.SaveAsFile(@"C:\Users\Dsyhi\source\repos\LV587SetOpencart\LV587SETOPENCART\LV587SETOPENCART\bin\Debug\net5.0\AllureScreenShots\ScreenshotImageFormat.Png", ScreenshotImageFormat.Png);
+            //    AllureLifecycle.Instance.AddAttachment("ReviewTestTearDown", "application/png", @"C:\Users\Dsyhi\source\repos\LV587SetOpencart\LV587SETOPENCART\LV587SETOPENCART\bin\Debug\net5.0\AllureScreenShots\ScreenshotImageFormat.Png");
+            //}
             Thread.Sleep(1000);//only for presentation
         }
     }
