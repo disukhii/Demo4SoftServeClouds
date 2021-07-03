@@ -72,7 +72,7 @@ namespace LV587SETOPENCART.Tests
             string expResEmailWarningMessage = "E-Mail Address does not appear to be valid!";
             string expResPasswordWarningMessage = "Password confirmation does not match password!";
 
-            Screenshot AfterTestScreen = ((ITakesScreenshot)driver).GetScreenshot();
+            //Screenshot AfterTestScreen = ((ITakesScreenshot)driver).GetScreenshot();
             try
             {
                 Assert.AreEqual(expResGeneralWarningMessage, registerPage.VerifyGeneralExeptionRegText());
