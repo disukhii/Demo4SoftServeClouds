@@ -64,7 +64,7 @@ namespace LV587SETOPENCART.Tests
             string expRes = "My Account";
             var actRes = myAccountPage.MyAccountText();
 
-            Screenshot AfterTestScreen = ((ITakesScreenshot)driver).GetScreenshot();
+            //Screenshot AfterTestScreen = ((ITakesScreenshot)driver).GetScreenshot();
             try
             {
                 Assert.AreEqual(expRes, actRes);
