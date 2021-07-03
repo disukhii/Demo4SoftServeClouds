@@ -72,7 +72,7 @@ namespace LV587SETOPENCART.Tests
             string expResEmailIsAlreadyRegistered = "Warning: E-Mail Address is already registered!";
 
 
-            Screenshot AfterTestScreen = ((ITakesScreenshot)driver).GetScreenshot();
+            //Screenshot AfterTestScreen = ((ITakesScreenshot)driver).GetScreenshot();
             try
             {
                 Assert.AreEqual(expResEmailIsAlreadyRegistered, registerPage.VerifyGeneralExeptionRegText());
