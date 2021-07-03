@@ -13,9 +13,9 @@ namespace LV587SETOPENCART.Tests
 
 {
     [TestFixture]
-    [AllureNUnit]
-    [AllureSuite("[Register] Call warning that the user is already registered")]
-    [AllureDisplayIgnored]
+   // [AllureNUnit]
+   // [AllureSuite("[Register] Call warning that the user is already registered")]
+   // [AllureDisplayIgnored]
     class VefiryRegUser
     {
         IWebDriver driver;
@@ -37,13 +37,13 @@ namespace LV587SETOPENCART.Tests
         [SetUp]
         public void SetUp()
         {
-            driver.Navigate().GoToUrl(@"http://localhost/");
+            driver.Navigate().GoToUrl(@"http://34.198.140.2/");
         }
         [Test]
-        [AllureTag("OpenCart: User is already registered Test")]
-        [AllureSeverity(SeverityLevel.critical)]
-        [AllureOwner("Sukhii Dmitro")]
-        [Description("The test check that you cannot create new customer account if this email is used (Registration)")]
+     //   [AllureTag("OpenCart: User is already registered Test")]
+     //   [AllureSeverity(SeverityLevel.critical)]
+     //   [AllureOwner("Sukhii Dmitro")]
+     //   [Description("The test check that you cannot create new customer account if this email is used (Registration)")]
         public void RegisterPageTest()
         {
             // Click on My Account > Register
@@ -79,8 +79,8 @@ namespace LV587SETOPENCART.Tests
             }
             catch (Exception)
             {
-                AfterTestScreen.SaveAsFile(@"C:\Users\Dsyhi\source\repos\LV587SetOpencart\LV587SETOPENCART\LV587SETOPENCART\bin\Debug\net5.0\AllureScreenShots\ScreenshotImageFormat.Png", ScreenshotImageFormat.Png);
-                AllureLifecycle.Instance.AddAttachment("ReviewTestTearDown", "application/png", @"C:\Users\Dsyhi\source\repos\LV587SetOpencart\LV587SETOPENCART\LV587SETOPENCART\bin\Debug\net5.0\AllureScreenShots\ScreenshotImageFormat.Png");
+            //    AfterTestScreen.SaveAsFile(@"C:\Users\Dsyhi\source\repos\LV587SetOpencart\LV587SETOPENCART\LV587SETOPENCART\bin\Debug\net5.0\AllureScreenShots\ScreenshotImageFormat.Png", ScreenshotImageFormat.Png);
+            //    AllureLifecycle.Instance.AddAttachment("ReviewTestTearDown", "application/png", @"C:\Users\Dsyhi\source\repos\LV587SetOpencart\LV587SETOPENCART\LV587SETOPENCART\bin\Debug\net5.0\AllureScreenShots\ScreenshotImageFormat.Png");
             }
             Thread.Sleep(1000);//only for presentation
 
