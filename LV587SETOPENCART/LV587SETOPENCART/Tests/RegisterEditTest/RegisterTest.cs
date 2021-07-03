@@ -36,7 +36,7 @@ namespace LV587SETOPENCART.Tests
         [SetUp]
         public void SetUp()
         {
-            driver.Navigate().GoToUrl(@"http://3.234.143.196/");
+            driver.Navigate().GoToUrl(@"http://34.198.140.2/");
         }
 
         [Test]
@@ -56,7 +56,7 @@ namespace LV587SETOPENCART.Tests
             RegisterPage registerPage = new RegisterPage(driver);
             registerPage.SetFirstNameInputTextAndClear("Dima");
             registerPage.SetLastNameInputTextAndClear("Sukhii");
-            registerPage.SetEmailInputTextAndClear("test@gmail.com");
+            registerPage.SetEmailInputTextAndClear("tes1t@gmail.com");
             registerPage.SetTelephoneInputTextAndClear("0930020102");
             registerPage.SetPasswordInputTextAndClear("qwerty12345678");
             registerPage.SetPasswordConfirmInputTextAndClear("qwerty12345678");
