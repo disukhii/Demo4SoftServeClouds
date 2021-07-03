@@ -55,7 +55,7 @@ namespace LV587SETOPENCART.Tests
 
             //login
             LoginBL loginBL = new LoginBL(driver);
-            loginBL.Login("test12@gmail.com", "qwerty");
+            loginBL.Login("test123@gmail.com", "qwerty");
 
             Thread.Sleep(1000);//only for presentation
 
@@ -89,7 +89,7 @@ namespace LV587SETOPENCART.Tests
 
             editInformationPage.SetFirstNameInput("Dima");
             editInformationPage.SetLastNameInput("Sukhii");
-            editInformationPage.SetEmailInput("test12@gmail.com");
+            editInformationPage.SetEmailInput("test123@gmail.com");
             editInformationPage.SetTelephoneInput("94329481348");
             editInformationPage.ButtonClick();
 
