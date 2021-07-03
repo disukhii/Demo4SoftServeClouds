@@ -37,7 +37,7 @@ namespace LV587SETOPENCART.Tests
         [SetUp]
         public void SetUp()
         {
-            driver.Navigate().GoToUrl(@"http://3.234.143.196/");
+            driver.Navigate().GoToUrl(@"http://34.198.140.2/");
         }
         [Test]
         //[AllureTag("OpenCart: Edit Information about User Test")]
