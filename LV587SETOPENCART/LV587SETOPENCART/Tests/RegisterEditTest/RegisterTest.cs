@@ -71,9 +71,9 @@ namespace LV587SETOPENCART.Tests
             // verify that user has been create
             string expResUserCreated = "Your Account Has Been Created!";
 
-            AccountCreatedPage accountCreatedPage = new AccountCreatedPage(driver);
+            //AccountCreatedPage accountCreatedPage = new AccountCreatedPage(driver);
 
-            Screenshot AfterTestScreen = ((ITakesScreenshot)driver).GetScreenshot();
+            //Screenshot AfterTestScreen = ((ITakesScreenshot)driver).GetScreenshot();
 
             try
             {
