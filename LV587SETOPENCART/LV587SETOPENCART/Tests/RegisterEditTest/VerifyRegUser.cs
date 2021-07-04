@@ -13,9 +13,9 @@ namespace LV587SETOPENCART.Tests
 
 {
     [TestFixture]
-   // [AllureNUnit]
-   // [AllureSuite("[Register] Call warning that the user is already registered")]
-   // [AllureDisplayIgnored]
+    [AllureNUnit]
+    [AllureSuite("[Register] Call warning that the user is already registered")]
+    [AllureDisplayIgnored]
     class VefiryRegUser
     {
         IWebDriver driver;
@@ -40,10 +40,10 @@ namespace LV587SETOPENCART.Tests
             driver.Navigate().GoToUrl(@"http://34.198.140.2/");
         }
         [Test]
-     //   [AllureTag("OpenCart: User is already registered Test")]
-     //   [AllureSeverity(SeverityLevel.critical)]
-     //   [AllureOwner("Sukhii Dmitro")]
-     //   [Description("The test check that you cannot create new customer account if this email is used (Registration)")]
+        [AllureTag("OpenCart: User is already registered Test")]
+        [AllureSeverity(SeverityLevel.critical)]
+        [AllureOwner("Sukhii Dmitro")]
+        [Description("The test check that you cannot create new customer account if this email is used (Registration)")]
         public void RegisterPageTest()
         {
             // Click on My Account > Register
