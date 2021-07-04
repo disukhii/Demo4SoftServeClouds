@@ -13,9 +13,9 @@ namespace LV587SETOPENCART.Tests
 {
     
     [TestFixture]
-    //[AllureNUnit]
-    //[AllureSuite("[Edit] You can edit information in your profile ")]
-    //[AllureDisplayIgnored]
+    [AllureNUnit]
+    [AllureSuite("[Edit] You can edit information in your profile ")]
+    [AllureDisplayIgnored]
     class EditUserTest
     {
         IWebDriver driver;
@@ -40,10 +40,10 @@ namespace LV587SETOPENCART.Tests
             driver.Navigate().GoToUrl(@"http://34.198.140.2/");
         }
         [Test]
-        //[AllureTag("OpenCart: Edit Information about User Test")]
-        //[AllureSeverity(SeverityLevel.critical)]
-        //[AllureOwner("Sukhii Dmitro")]
-        //[Description("The test verify that you can edit data your account")]
+        [AllureTag("OpenCart: Edit Information about User Test")]
+        [AllureSeverity(SeverityLevel.critical)]
+        [AllureOwner("Sukhii Dmitro")]
+        [Description("The test verify that you can edit data your account")]
         public void EditUserInformationTest()
         {
 
