@@ -12,9 +12,9 @@ namespace LV587SETOPENCART.Tests
     
 {
     [TestFixture]
-    //[AllureNUnit]
-    //[AllureSuite("[Register] Create new customer Test")]
-    //[AllureDisplayIgnored]
+    [AllureNUnit]
+    [AllureSuite("[Register] Create new customer Test")]
+    [AllureDisplayIgnored]
     class RegisterTest
     {
         IWebDriver driver;
@@ -40,10 +40,10 @@ namespace LV587SETOPENCART.Tests
         }
 
         [Test]
-        //[AllureTag("OpenCart: Register Test")]
-        //[AllureSeverity(SeverityLevel.critical)]
-        //[AllureOwner("Sukhii Dmitro")]
-        //[Description("The test check that you can create new customer account (Registration)")]
+        [AllureTag("OpenCart: Register Test")]
+        [AllureSeverity(SeverityLevel.critical)]
+        [AllureOwner("Sukhii Dmitro")]
+        [Description("The test check that you can create new customer account (Registration)")]
         public void RegisterPageTest()
         {
             // Click on My Account > Register
